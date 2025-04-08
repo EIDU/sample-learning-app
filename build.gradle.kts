@@ -13,7 +13,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:${Versions.gradle}")
+        classpath("com.android.tools.build:gradle:8.9.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0")
         classpath("com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}")
     }
@@ -24,10 +24,6 @@ allprojects {
         google()
         mavenCentral()
     }
-}
-
-tasks.register("clean", Delete::class) {
-    delete(rootProject.buildDir)
 }
 
 tasks.register("installGitHooks", Exec::class) {

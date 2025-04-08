@@ -67,7 +67,7 @@ android {
         kotlinCompilerExtensionVersion = "1.2.0"
     }
 
-    packagingOptions {
+    packaging {
         // for instrumented tests
         resources.excludes += "META-INF/AL2.0"
         resources.excludes += "META-INF/LGPL2.1"

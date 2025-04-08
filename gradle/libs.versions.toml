@@ -1,0 +1,5 @@
+[versions]
+agp = "8.9.1"
+
+[libraries]
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }

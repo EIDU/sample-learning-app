@@ -8,6 +8,5 @@ object Apps {
 object Versions {
     const val kotlin = "1.7.0"
     const val compose = "1.1.1"
-    const val ktlintGradle = "10.3.0"
     const val hilt = "2.42"
 }

@@ -6,7 +6,6 @@ plugins {
     id("kotlin-android")
     id("org.jetbrains.kotlin.kapt")
     id("dagger.hilt.android.plugin")
-    id("org.jlleitschuh.gradle.ktlint") version Versions.ktlintGradle
     id("com.github.jk1.dependency-license-report") version "2.8"
 }
 

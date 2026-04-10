@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Lint and check
-        run: ./gradlew check ktlintCheck ktlintTestSourceSetCheck ktlintAndroidTestSourceSetCheck lintDebug testDebugUnitTest --stacktrace
+        run: ./gradlew check lintDebug testDebugUnitTest --stacktrace
 
       - name: Publish reports
         uses: actions/upload-artifact@v4

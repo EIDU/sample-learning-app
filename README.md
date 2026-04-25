@@ -11,7 +11,7 @@ between learning apps and EIDU.
 
 ## Support
 
-Please contact EIDU at [dev@eidu.com](mailto:dev@eidu.com) if you need help.
+Please contact Trellis Education at [hello@trellis.education](mailto:hello@trellis.education) if you need help.
 
 ## Contributing
 
